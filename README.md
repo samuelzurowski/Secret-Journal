@@ -1,5 +1,5 @@
 # Secret-Journal
-Secret-Journal is a program that allows you to create a password to then allows you to create journal entries that are encrypted and can only be read in the program (change the characters you use so its different then the default it uses XOR encryption
+Secret-Journal is a program that allows you to create a password to view/write Journal Entires. Uses XOR encryption, change the characters used in samENCRYPT so it differs from mine. 
 ## Features
 
 * Create a password, change it, write journal entries, read entries you've entered
