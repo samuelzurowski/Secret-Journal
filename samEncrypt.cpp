@@ -10,10 +10,10 @@
 #include <iostream>
 
 std::string encryptDecrypt(std::string toEncrypt) {
-    char key[5] = {'Z', 'A', 'B','X', 'F'};
+    char key[5] = {'Z', 'A', 'B','X', 'F'}; // key for encryption
     std::string result = toEncrypt;
     
-    for(int i = 0; i < toEncrypt.size(); i++) {
+    for(int i = 0; i < toEncrypt.size(); i++) { // used for XOR encrypt
         result[i] = toEncrypt[i] ^ key[i % (sizeof(key)/sizeof(char))];
     }
     return result;
